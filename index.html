@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Hey you! Welcome to the Light and Memory Game! Repeat the pattern back to win the game!
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" >
+        <img src="https://cdn.glitch.com/811d87a0-3e4c-4e0e-a5f7-fcc4fae3dcc2%2Fdog1.jpeg?v=1616388292193" width = "100%" height = "80%">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/811d87a0-3e4c-4e0e-a5f7-fcc4fae3dcc2%2Fdog4.jpeg?v=1616389678704" width= "180" height = "150">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/811d87a0-3e4c-4e0e-a5f7-fcc4fae3dcc2%2Fdog3.jpeg?v=1616389684015" width= "100%" height = "90%">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()">
+        <img src="https://cdn.glitch.com/811d87a0-3e4c-4e0e-a5f7-fcc4fae3dcc2%2Fdog2.jpeg?v=1616389690092" width="100%" height="90%"> 
+      </button>
+    </div>
+
+    
+  </body>
+</html>
