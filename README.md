@@ -6,7 +6,7 @@ Submitted by: Elizabeth Tran
 
 Time spent: 4.5 hours spent in total
 
-Link to project: https://knowledgeable-everlasting-layer.glitch.me/
+Link to project: https://knowledgeable-everlasting-layer.glitch.me
 
 ## Required Functionality
 
